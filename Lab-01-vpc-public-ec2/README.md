@@ -70,6 +70,14 @@ Name = Lab-01_instance
 ```text
 lab-01/
 │
+├── screenshots/
+│   ├── terraform-apply-success.png
+│   ├── vpc-created.png
+│   ├── public-subnet.png
+│   ├── ec2-instance.png
+│   ├── public-ip.png
+│   └── terraform-destroy-success.png
+│
 ├── provider.tf
 ├── variables.tf
 ├── main.tf
