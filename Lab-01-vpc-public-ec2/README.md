@@ -135,7 +135,7 @@ Configuration:
 
 | Property | Value |
 |-----------|--------|
-| Type | t2.micro |
+| Type | t3.micro |
 | OS | Amazon Linux 2023 AMI |
 | Public IP | Enabled |
 | Name Tag | Lab-01_instance |
@@ -276,4 +276,4 @@ By completing this lab, I learned how to:
 ---
 
 ## Author
-GitHub: Assem-Alasri
+# Assem-Alasri
