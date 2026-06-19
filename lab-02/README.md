@@ -105,7 +105,7 @@ lab-02/
 
 ├── README.md
 
-└── screenshots/
+
 
 ---
 
@@ -165,6 +165,9 @@ yes
 
 when prompted.
 
+or 
+terraform apply -auto-approve
+
 ---
 
 ## Output Verification
@@ -189,51 +192,6 @@ nat_gateway_id = "nat-xxxxxxxxxxxxx"
 
 ---
 
-# Deployment Evidence
-
-## Terraform Apply Success
-
-Screenshot:
-
-screenshots/terraform-apply-success.png
-
----
-
-## IAM User Created
-
-Screenshot:
-
-screenshots/iam-user-created.png
-
----
-
-## Elastic IP Created
-
-Screenshot:
-
-screenshots/elastic-ip-created.png
-
----
-
-## NAT Gateway Created
-
-Screenshot:
-
-screenshots/nat-gateway-created.png
-
----
-
-## Terraform Outputs
-
-Screenshot showing:
-
-* Elastic IP
-* IAM User ARN
-* NAT Gateway ID
-
-screenshots/outputs-terminal.png
-
----
 
 ## Destroy Infrastructure
 
@@ -247,15 +205,8 @@ yes
 
 when prompted.
 
----
-
-## Terraform Destroy Success
-
-Screenshot:
-
-screenshots/terraform-destroy-success.png
-
----
+or 
+terraform destroy -auto-approve
 
 ## Learning Outcomes
 
@@ -275,12 +226,3 @@ By completing this lab, I learned how to:
 
 ---
 
-## Author
-
-Name: Your Name
-
-GitHub: Your GitHub Username
-
-Course: Cloud Computing / DevOps
-
-Lab: Lab-02 – Terraform IAM User, Elastic IP and NAT Gateway
