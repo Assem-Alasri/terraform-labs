@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> ebca40fe1377217b5a7dfe3a1289e62a117ca49e
 # Lab-01: AWS Infrastructure Provisioning with Terraform
 1. Create an IAM user that has programmatic access with the appropertiate permissions to create EC2 instances, VPCs, and subnets. Use this user to do the below      tasks.
 2. Create a new VPC and a new public subnet, use any supported CIDR blocks.
